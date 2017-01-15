@@ -184,26 +184,48 @@ body{
 }
 
 .player#player1 , .player1.cell .content {
-    background-color: #389c36;
+    background-color: lawngreen;
 }
 
 .player#player2 , .player2.cell .content{
-    background-color: #364c9c;
+    background-color: mediumvioletred;
 }
 
 .player#player3 , .player3.cell .content{
-    background-color: #d09461;
+    background-color: lightsalmon;
 }
 
 .player#player4 , .player4.cell .content{
-    background-color: #d061cd;
+    background-color: mediumblue;
 }
+
+.player#player5 , .player5.cell .content{
+    background-color: mediumpurple;
+}
+
+.player#player6 , .player6.cell .content{
+    background-color: deepskyblue;
+}
+
+
 
 .player.current-turn{
     background-image:url(../images/crown.png);
     background-size:contain;
     background-position:center;
 }
+.jailed{
+    background-image:url(../images/smiley-sad.png);
+    background-size:contain;
+    background-position:center;
+}
+
+.hisProperty{
+    background-image:url(../images/smiley-happy.png);
+    background-size:contain;
+    background-position:center;
+}
+
 
 .board .dice.cell{
     background-color:white;
@@ -214,7 +236,7 @@ body{
     width: 25%;
     height: 25%;
     margin: 4%;
-    background-color: black;
+    background-color: #364c9c;
     border-radius: 100px;
     opacity:0;
 }
